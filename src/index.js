@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => res.send("Namaste from backend"));
+app.get("/", (req, res) => res.send("Namaste from backend!"));
 
 if (require.main === module) {
   app.listen(3001, () =>
